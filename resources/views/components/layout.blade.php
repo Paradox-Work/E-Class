@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('style.css') }}">
 </head>
 <body>
-    <x-navigation></x-navigation>
+   
     {{ $slot }}
 </body>
 </html>

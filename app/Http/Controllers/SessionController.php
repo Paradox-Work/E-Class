@@ -15,7 +15,7 @@ class SessionController extends Controller
     }
 
     public function create() { 
-        return view("prieksa.login");
+        return view("welcome");
     }
 
     public function store(Request $request) { 
